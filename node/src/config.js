@@ -1,0 +1,17 @@
+exports.address 	          = '239.1.1.10';
+exports.resources      		  = 10005;
+exports.control				      = 10000;
+// exports.sl_video			    	= 'http://192.168.100.119:8080/video.webm';
+// exports.sl_avatar		    	  = 30006;
+// exports.ad					        = 'http://192.168.5.104/sdp/ad.sdp';
+// exports.aa					        = 'http://192.168.5.104/sdp/aa.sdp';
+// exports.aa_ad				        = 'http://192.168.5.104/sdp/aa_ad.sdp';
+// exports.cc			            = {};
+// exports.cc['pt-br']         = 30016;
+// exports.cc['en']            = 30018;
+// exports.cc['es']            = 30020;
+// exports.cc['undefined']     = 30022;
+// exports.cc['jp']            = 30024;
+// exports.cc['it']            = 30026;
+// exports.cc['ko']            = 30028;
+// exports.sync		  		      = 30030;

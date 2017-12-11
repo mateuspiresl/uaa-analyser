@@ -1,0 +1,12 @@
+{
+  "name": "uaa-analyser",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/analyser.js",
+  "scripts": {
+    "start": "node src/analysis.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mateus Pires <mateusplpl@gmail.com>",
+  "license": "ISC"
+}
