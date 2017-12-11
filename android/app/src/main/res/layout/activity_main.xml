@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.assistatecnologia.uaa_analyser.MainActivity"
+    tools:ignore="HardcodedText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/ll_local_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_label_local_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Local count:" />
+
+        <TextView
+            android:id="@+id/tv_local_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="123456"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_ias_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_local_count">
+
+        <TextView
+            android:id="@+id/tv_label_ias_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IAS count:" />
+
+        <TextView
+            android:id="@+id/tv_ias_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="123456"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_lost_messages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_ias_count">
+
+        <TextView
+            android:id="@+id/tv_label_lost_messages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lost messages:" />
+
+        <TextView
+            android:id="@+id/tv_lost_messages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="123456"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_unordered_messages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_lost_messages">
+
+        <TextView
+            android:id="@+id/tv_label_unordered_messages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unordered messages:" />
+
+        <TextView
+            android:id="@+id/tv_unordered_messages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="123456"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_unordered_messages"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp">
+
+        <ListView
+            android:id="@+id/lv_long_delays"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+</RelativeLayout>
